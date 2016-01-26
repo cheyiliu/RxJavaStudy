@@ -39,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
                 Log.i("test", "hi from thread, " + Thread.currentThread().getId());
             }
         });
+        Create.from();
     }
 
     @Override
